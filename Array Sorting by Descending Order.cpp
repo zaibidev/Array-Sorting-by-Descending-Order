@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-	int arr[10], temp;
+	int arr[10], temp = NULL;
+	//printing menu
 	cout << "...........Descending Order Array Sorting..........." << endl << endl;
 	for (int i = 0; i < 10; i++)
 	{
@@ -11,6 +12,7 @@ int main()
 	}
 	for (int i = 0; i < 10; i++)
 	{
+	//for loop for second array and index
 		for (int j = 0; j < 10 - 1; j++)
 		{
 			if (arr[j] < arr[j + 1])
